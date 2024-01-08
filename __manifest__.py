@@ -23,7 +23,7 @@
 {
     'name': 'MuK Backend Theme Kimya', 
     'summary': 'Odoo Community Backend Theme',
-    'version': '15.0.2.0.1',
+    'version': '15.0.2.0.2',
     'category': 'Themes/Backend', 
     'license': 'LGPL-3', 
     'author': 'MuK IT, Arash Homayounfar',
@@ -33,6 +33,7 @@
         'Mathias Markl <mathias.markl@mukit.at>',
     ],
     'depends': [
+        'base',
         'base_setup',
         'web_editor',
         'mail',
